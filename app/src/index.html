@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type=text/css href="css/styles.css"/>
+        <link rel="stylesheet" type=text/css href="styles.css"/>
         <title>$H2O</title>
     </head>
     <body>
 
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="dist/bootstrap.min.css" rel="stylesheet">
          
         <div class="ocean">
 
@@ -35,7 +35,7 @@
                 <ol>
                     <li>Login to MetaMask</li>
                     <li>Choose location to donate too</li>
-                    <li>Choose amount to donate</li>
+                    <li>Choose amount to donate (Keep it low! Our token will suprise you &#129323)</li>
                     <li>Finally click donate to transfer amount</li>
                 </ol>
 
@@ -157,7 +157,7 @@
                 <br><br>
     
                 <label for="donation"></label>
-                <button type="submit" id="donation" name="donation">Donate Now</button>  
+                <button type="submit" id="donation" name="donation" onclick="bindEvents()">Donate Now</button>  
                 
                 <br><br>
                 
@@ -192,7 +192,7 @@
 
         </div>
 
-        <script type = 'text/javascript'>
+        <!--script type = 'text/javascript'>
             const abi = [
             {
                 "inputs": [],
@@ -345,7 +345,7 @@
                 var get = await contract.methods.getCountryAddr(countryId).send({from:web3.eth.defaultAccount});
                 console.log(get);
             }
-        </script>
+        </script-->
 
         <!-- Introduction -->
         <!-- Who are we and why do we do this? -->
@@ -378,10 +378,11 @@
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-            <script src="js/dist/bootstrap.min.js"></script>
-            <script src="js/dist/web3.min.js"></script>
-            <script src="js/dist/truffle-contract.js"></script>
-            <script type="module" src="js/app.js"></script>
-
+            <script type="text/javascript" src="dist/bootstrap.min.js"></script>
+            <script type="text/javascript" src="dist/web3.min.js"></script>
+            <script type="text/javascript" src="dist/truffle-contract.js"></script>
+            <script type="text/javascript"  src="app.js"></script>
+            <script type="text/javascript" src="locations.json"></script>
+            <script>init()</script>
         </body>
     </html>
