@@ -268,7 +268,7 @@ function initWeb3() {
 
 
 function initContract() {
-    contracts.Faucet = web3.eth.contract(abi,"0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8");
+    //contracts.Faucet = web3.eth.contract(abi,"0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8");
     $.getJSON('Faucet.json', function(data) {
          var initializeWallet = data;
          contracts.Faucet = TruffleContract(initializeWallet);
@@ -310,7 +310,11 @@ function bindEvents() {
     */
 }
 
-
+/*
+function transferToken(){
+    var sent = 
+}
+*/
 function handleLocation() {
     locationChosen = document.getElementById('location').value; // saves location
     if(locationChosen == "Eritrea"){
