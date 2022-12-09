@@ -1,0 +1,52 @@
+[
+    {
+        "id": 0,
+        "name": "Eritrea",
+        "address": "0x56d77fE298735d515d0c618aFbF582A8Bc5DBFdC"
+    },
+    {
+        "id": 1,
+        "name": "Papua New Guinea",
+        "address": "0x77EfE1333ABca32ffd38F9C2019721B40fa08a40"
+    },
+    {
+        "id": 2,
+        "name": "Uganda",
+        "address": "0x5345BE593D040bE71A18AEF60a04295E5a43Cd85"
+    },
+    {
+        "id": 3,
+        "name": "Ethopia",
+        "address": "0x23dCC595E2Cc19e95572e556523C2C4eFf338f10"
+    },
+    {
+        "id": 4,
+        "name": "Somalia",
+        "address": "0x1869a9D06e5C2bc9c3b3165daF0ee5A1f4b456D4"
+    },
+    {
+        "id": 5,
+        "name": "Amogla",
+        "address": "0x1820E121c0BaD4BDFC190f074e8F81D08271169d"
+    },
+    {
+        "id": 6,
+        "name": "Congo",
+        "address": "0xb94320d279258F1B784eE27064827Bb733B65Cd5"
+    },
+    {
+        "id": 7,
+        "name": "Chad",
+        "address": "0x6eEae5fCEBD0f4A3c251bD3Ad5535518130f869f"
+    },
+    {
+        "id": 8,
+        "name": "Niger",
+        "address": "0x512711B8dBe372aB736609521d885c67D0c9f967"
+    },
+    {
+        "id": 9,
+        "name": "Muzambique",
+        "address": "0xA992d15DD7A1f493335210C1655Eb219bCEe0468"
+    }
+]

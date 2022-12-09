@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type=text/css href="css/styles.css"/>
+        <title>$H2O</title>
+    </head>
+    <body>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+         
+        <div class="ocean">
+
+            <h1 style="font-size: 32pt;">$H2O Water Token</h1>
+            <p class="text-center">Brian Woo, Frank Caputo</p>
+
+
+            <br><br><br><br><br><br><br><br>
+
+            <p style="padding-left: 10px; font-size: 24pt;">Who are We?</p>
+
+            <br>
+            <p style="padding-left: 10px; font-size: 24pt;">What does water do for the body?</p>
+            <br>
+            <p style="padding-left: 10px; font-size: 24pt;">Why should you donate water?</p>
+            <br>
+            <p style="padding-left: 10px; font-size: 24pt;">Where you can donate too?</p>
+            <br>
+            <p style="padding-left: 10px; font-size: 24pt;">How much can you donate?</p>
+            <br>
+            <p style="padding-left: 10px; font-size: 24pt;">How to being donating?</p>
+            <br>
+                <ol>
+                    <li>Login to MetaMask</li>
+                    <li>Choose location to donate too</li>
+                    <li>Choose amount to donate</li>
+                    <li>Finally click donate to transfer amount</li>
+                </ol>
+
+            <p style="padding-left: 10px; font-size: 24pt;">Let's begin donating!</p>
+            
+            <p class="text-center" style="font-size:16pt;">Choose a location to donate water to:</p>
+
+            <section class="container">
+                <div class="card">
+                    <div class="front blackbackground">
+                        <p class="center-white" style="padding-top: 5px;">Eritrea</p>
+                        <p class="center-white">Country's Wallet:</p>
+                    </div>
+                    <div class="back">
+                        <img src="/img/Eritrea_vertical.png" class="resizeimg"/>
+                    </div>
+                </div>
+          
+                <div class="card">
+                    <div class="front blackbackground">
+                        <p class="center-white" style="padding-top: 5px;">Uganda</p>
+                        <p class="center-white">Country's Wallet:</p>
+                    </div>
+                  <div class="back">
+                        <img src="/img/Uganda_vertical.png" class="resizeimg"/>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <div class="front blackbackground">
+                        <p class="center-white" style="padding-top: 5px;">Papua New Guinea</p>
+                        <p class="center-white">Country's Wallet:</p>
+                    </div>
+                    <div class="back">
+                        <img src="/img/PapuaNewGuinea_vertical.png" class="resizeimg"/>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="front blackbackground">
+                        <p class="center-white" style="padding-top: 5px;">Ethopia</p>
+                        <p class="center-white">Country's Wallet:</p>
+                    </div>
+                    <div class="back">
+                        <img src="/img/Ethopia_vertical.png" class="resizeimg"/>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="front blackbackground">
+                        <p class="center-white" style="padding-top: 5px;">Somalia</p>
+                        <p class="center-white">Country's Wallet:</p>
+                    </div>
+                    <div class="back">
+                        <img src="/img/Somalia_vertical.png" class="resizeimg"/>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="front blackbackground">
+                        <p class="center-white" style="padding-top: 5px;">Amgola</p>
+                        <p class="center-white">Country's Wallet:</p>
+                    </div>
+                    <div class="back">
+                        <img src="/img/Amgola_vertical.png" class="resizeimg"/>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="front blackbackground">
+                        <p class="center-white" style="padding-top: 5px;">Congo</p>
+                        <p class="center-white">Country's Wallet:</p>
+                    </div>
+                    <div class="back">
+                        <img src="/img/Congo_vertical.png" class="resizeimg"/>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="front blackbackground">
+                        <p class="center-white" style="padding-top: 5px;">Chad</p>
+                        <p class="center-white">Country's Wallet:</p>
+                    </div>
+                    <div class="back">
+                        <img src="/img/Chad_vertical.png" class="resizeimg"/>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="front blackbackground">
+                        <p class="center-white" style="padding-top: 5px;">Niger</p>
+                        <p class="center-white">Country's Wallet:</p>
+                    </div>
+                    <div class="back">
+                        <img src="/img/Niger_vertical.png" class="resizeimg"/>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="front blackbackground">
+                        <p class="center-white" style="padding-top: 5px;">Mozambique</p>
+                        <p class="center-white">Country's Wallet:</p>
+                    </div>
+                    <div class="back">
+                        <img src="/img/Mozambique_vertical.png" class="resizeimg"/>
+                    </div>
+                </div>
+            </section>
+
+            <div class="text-center">
+                <label for="location" name="place">Select Location:</label>
+                <input type="text" id="location" name="location">
+
+                <br><br>            
+                
+                <label for="amount" name="donate">Donation Amount:</label>
+                <input type="text" id="amount" name="amount">   
+                    
+                <br><br>
+    
+                <label for="donation"></label>
+                <button type="submit" id="donation" name="donation">Donate Now</button>  
+                
+                <br><br>
+                
+                <span id="error" style="font-weight:bold;"></span>
+                
+            </div>  
+            
+            
+            <div class="bubbles">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                
+            </div>
+            
+            <div class="fish">
+                <!-- eyes -->
+                <span></span>
+                <span></span>
+                <!-- mouth -->
+                <span></span>
+                <!-- bubbles -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+        <script type = 'text/javascript'>
+            const abi = [
+            {
+                "inputs": [],
+                "name": "closeContract",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "_amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "getAmount",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "id",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "payCountry",
+                "outputs": [],
+                "stateMutability": "payable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "id",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "populateCountries",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "index",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "_value",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "nonpayable",
+                "type": "constructor"
+            },
+            {
+                "stateMutability": "payable",
+                "type": "receive"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "countries",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "Wallet",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "id",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "address payable",
+                        "name": "currentCountry",
+                        "type": "address"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "id",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "getCountryAddr",
+                "outputs": [
+                    {
+                        "internalType": "address",
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "viewUser",
+                "outputs": [
+                    {
+                        "internalType": "address",
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            }
+        ];
+
+            console.log("hi ther");
+            const web3 = new Web3(Web3.givenProvider || "ws:localhost7545");
+            ethereum.enable()
+
+            web3.eth.defaultAccount = "0xB92729203B4F5Fd9115BB302A0851eef63Fcee0c"; //any account addresss
+            var contract = new web3.eth.Contract(abi,"0x4306b0bDD2287413259Ec12cfb8E67996e4a7fb3"); //deployed address
+
+            console.log("hi");
+
+            async function sendData(countryId){
+                var sent = await contract.methods.populateCountries(countryId).send({from:web3.eth.defaultAccount});
+                console.log(sent);
+                var get = await contract.methods.getCountryAddr(countryId).send({from:web3.eth.defaultAccount});
+                console.log(get);
+            }
+        </script>
+
+        <!-- Introduction -->
+        <!-- Who are we and why do we do this? -->
+        <!-- Include plan -->
+
+        <!-- Include a jump to donate button -->
+        <!-- Include a timeline -->
+            <!-- should be implemented in a way to jump to topics of dicussion -->
+
+            <!-- Body -->
+            <!-- What does water do for the body? -->
+            <!-- Why should you donate water? -->
+            <!-- How much can you donate? -->
+            <!-- Where you can donate too? -->
+    
+            <!-- What is the randomizer? -->
+                <!-- Explain the randomizer -->
+                    <!-- Money used from people donating to our company -->
+                    <!-- people can donate to our page to assist our multiplier -->
+                <!-- How will the randomizer be used? -->
+                    <!-- Chooses a random number from 1-5 -->
+    
+            <!-- How to begin donating? (steps) -->
+                <!-- Login to MetaMask -->
+                <!-- Choose location to donate too -->
+                <!-- Choose amount to donate -->
+    
+            <!-- Donate to our charity to help with the randomizer -->
+                <!-- explain that donating to randomizer could lead to more gains -->
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+            <script src="js/dist/bootstrap.min.js"></script>
+            <script src="js/dist/web3.min.js"></script>
+            <script src="js/dist/truffle-contract.js"></script>
+            <script type="module" src="js/app.js"></script>
+
+        </body>
+    </html>
