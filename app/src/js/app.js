@@ -93,8 +93,9 @@ function handleDonation() {
     }
     else if (locationChosen in idToAddress) {
         if (donationAmount != '' && locationChosen != '') {
-            error.textContent = locationChosen + ' appreciates your donation of $' + donationAmount.toString()
-            error.style.color = "white"
+            // error.textContent = locationChosen + ' appreciates your donation of $' + donationAmount.toString()
+            // error.style.color = "white"
+            alert(locationChosen + ' appreciates your donation of $' + donationAmount.toString());
         }
         else if (donationAmount == '' && locationChosen != '') {
             error.textContent = "Please select a donation amount"
